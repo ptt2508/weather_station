@@ -49,6 +49,7 @@ PubSubClient client(espClient);
    output: temp Temperature
    output: humi Humidity */
 void tempHumObser(weatherStatus_t *wStatus);
+/**/
 
 void setup(void){
   // UART initialization
